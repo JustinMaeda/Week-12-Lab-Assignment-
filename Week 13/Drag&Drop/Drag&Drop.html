@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="Drag&Drop.js"></script>
+    </head>
+    <body>
+        <h2>Drag and Drop</h2>
+        <p>Drag the fox.</p>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="DomesticFox.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="800" height="571">
+        </div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </body>
+</html>
