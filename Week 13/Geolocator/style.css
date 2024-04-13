@@ -3,6 +3,10 @@
     width: 150px;
     margin: 15px;
     font-size: 40px;
+}
+
+
+.btn.style{
     border: 1px solid firebrick;
     border-radius: 10px;
     background-color: #E60012;
